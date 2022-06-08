@@ -109,3 +109,5 @@ if [ -f '/Users/cid/workspace/ep_test/gcp/google-cloud-sdk/path.zsh.inc' ]; then
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/cid/workspace/ep_test/gcp/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/cid/workspace/ep_test/gcp/google-cloud-sdk/completion.zsh.inc'; fi
+
+RPROMPT='[%D{%y-%m-%d} %D{%H:%M:%S}]'
